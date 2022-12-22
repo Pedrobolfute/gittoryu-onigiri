@@ -32,9 +32,13 @@ button.addEventListener("click", function(){
       tick.style.opacity = "1";
       alldone = true;
       button.title = "Pagina vai ser recarregada";
+        if(button.addEventListener("click", function(){
+         window.location.href = 'https://www.diarionfoot.com/';
+         //windows.location.reload;
+        })); 
     }, secon);
   }
-})
+});
 
 input.addEventListener("change", function(){
   file = this.files[0];
