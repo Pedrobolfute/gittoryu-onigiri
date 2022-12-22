@@ -5,6 +5,18 @@ body{
   color: rgb(147, 243, 209);
 }
 
+h1{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 400px;
+  height: 0px;
+  margin-top: -200px;
+  margin-left: -200px;
+  justify-content: center;
+  align-items: center;
+}
+
 .frame{
   position: absolute;
   top: 50%;
